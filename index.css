@@ -1,0 +1,47 @@
+.contenedorPrincipal{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.formulario{
+    background-color: aquamarine;
+    padding: 0.25rem;
+    box-sizing: border-box;
+    width: 40%;
+    height: auto;
+    margin: auto;
+}
+.tituloFormulario{
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.camposFormulario {
+    padding-top: 1.25rem;
+    list-style-type: none;
+    margin: 0 auto 0 auto;
+    width: 50%;
+}
+.campoUsuario,
+.campoApellido,
+.campoContraseña,
+.campoEmailCompania,
+.campoEmailPersonal,
+.campoCiudad,
+.campoImagen,
+.campoFechaCreacion,
+.campoActivado,
+.campoFechaFin {
+    display:flex;
+    margin-bottom: 1.25rem;
+    justify-content: space-between;
+}
+.campoActivado{
+    width: 75%;
+}
+.botones{
+    display: flex;
+    justify-content:center;
+    margin-bottom: 1rem;
+}
+.editar,
+.limpiar{
+    margin: 0.5rem;   
+}
